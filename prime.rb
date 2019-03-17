@@ -11,4 +11,5 @@ def prime?( value )
     end
     counter+=1
   end
+  return_value
 end
