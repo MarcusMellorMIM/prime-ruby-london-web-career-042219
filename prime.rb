@@ -1,8 +1,11 @@
 # Add  code here!
 def prime?( value )
   test_array=(2...value).to_a
-  return_value=test_array.index{|x| value%x==0}
-  return_value
+  return_value=1
+  if value > 1
+    return_value=test_array.index{|x| value%x==0}
+  end
+  return_value>0
 end
 
 
