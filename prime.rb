@@ -1,9 +1,3 @@
-# Add  code here!
-def prime?( value )
-  test_array(2...value).to_a
-#  return_value=test_array.index{|x| value%x==0}
-  return_value
-end
 
 def prime?old( value )
   test_array=(2...value).to_a
