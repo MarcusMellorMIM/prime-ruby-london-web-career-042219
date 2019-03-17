@@ -4,12 +4,16 @@ def prime?( value )
   test_array  
   counter=0
   return_value=true
-  while counter < test_array.count
-    if value % test_array[counter]==0 
-      return_value=false
-      break
+  if value>0
+    while counter < test_array.count
+      if value % test_array[counter]==0 
+        return_value=false
+        break
+      end
+      counter+=1
     end
-    counter+=1
+  else
+    return_value=false
   end
   return_value
 end
