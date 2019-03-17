@@ -4,7 +4,7 @@ def prime?( value )
   test_array  
   counter=0
   return_value=true
-  if value>0
+  if value>1
     while counter < test_array.count
       if value % test_array[counter]==0 
         return_value=false
