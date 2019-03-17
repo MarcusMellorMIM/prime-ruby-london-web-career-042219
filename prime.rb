@@ -5,7 +5,7 @@ def prime?( value )
   counter=0
   return_value=true
   while counter < test_array.count
-    if value % test_array[counter]==log10
+    if value % test_array[counter]==0 
       return_value=false 
       break
     end
