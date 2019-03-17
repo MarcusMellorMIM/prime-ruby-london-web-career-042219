@@ -5,7 +5,7 @@ def prime?( value )
   if value > 1
     return_value=test_array.index{|x| value%x==0}
   end
-  return_value>0
+  return_value
 end
 
 
