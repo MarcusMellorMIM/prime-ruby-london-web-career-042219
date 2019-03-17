@@ -1,5 +1,11 @@
 # Add  code here!
 def prime?( value )
+  test_array(2...value).to_a
+  return_value=test_array.include?(|x| value%x==0)
+  !return_value
+end
+
+def prime?old( value )
   test_array=(2...value).to_a
   test_array  
   counter=0
@@ -17,3 +23,4 @@ def prime?( value )
   end
   return_value
 end
+
